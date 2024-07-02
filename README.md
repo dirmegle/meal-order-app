@@ -10,6 +10,7 @@ Personal contributions to the project:
 - React Router configuration
 - Navigation
 - Authorization (login and registration)
+- PR review and approval
 
 ## Tech Stack
 
