@@ -1,0 +1,95 @@
+@import '../../styles/breakpoints.css';
+
+.container {
+  border: 1px solid var(--color-grey-100);
+  border-radius: var(--border-radius-l) 0 0 var(--border-radius-l);
+  box-shadow: var(--box-shadow-s);
+  color: var(--font-color-tertiary);
+  gap: var(--spacing-xxxs);
+  padding: var(--spacing-xs) 0 var(--spacing-xs) var(--spacing-xs);
+}
+
+.headline {
+  align-items: center;
+  display: flex;
+  font-size: var(--headline-font-size-s);
+  font-weight: var(--font-weight-bold);
+  justify-content: space-between;
+  line-height: var(--headline-line-height-s);
+  padding-right: var(--spacing-xs);
+}
+
+.mappingBox {
+  max-height: 580px;
+  overflow-y: auto;
+  padding-right: var(--spacing-xxxs);
+
+  &::-webkit-scrollbar {
+    border: none;
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: var(--color-grey-300);
+    border-radius: var(--border-radius-s);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--color-grey-500);
+    border-radius: var(--border-radius-s);
+    height: 193px;
+    width: 6px;
+  }
+}
+
+.totalPrice {
+  margin-right: var(--spacing-xs);
+  text-align: right;
+}
+
+.priceText {
+  border-top: 1px solid var(--color-grey-200);
+  color: var(--font-color-secondary);
+  font-size: var(--title-font-size-s);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--title-line-height-s);
+  padding-top: var(--spacing-xxxs);
+  width: 100%;
+}
+
+.priceNumbers {
+  font-size: var(--title-font-size-l);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--title-line-height-l);
+  text-align: right;
+}
+
+.button {
+  align-self: center;
+  padding-right: var(--spacing-xs);
+}
+
+@media screen and (--breakpoint-sm-desktop) {
+  .container {
+    border-radius: var(--border-radius-l);
+    width: 100%;
+  }
+
+  .mappingBox {
+    max-height: 300px;
+
+    &::-webkit-scrollbar-thumb {
+      height: 100px;
+    }
+  }
+}
+
+@media screen and (--breakpoint-sm-mobile) {
+  .mappingBox {
+    max-height: 200px;
+
+    &::-webkit-scrollbar-thumb {
+      height: 30px;
+    }
+  }
+}

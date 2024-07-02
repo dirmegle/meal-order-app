@@ -1,0 +1,56 @@
+@import '../../styles/breakpoints.css';
+
+.container {
+  align-items: flex-end;
+  background-color: var(--color-white);
+  border: 0.5px solid var(--color-grey-100);
+  border-radius: var(--border-radius-m);
+  box-shadow: var(--box-shadow-s);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: var(--spacing-m);
+  padding: var(--spacing-xs);
+  width: 100%;
+}
+
+.tools {
+  align-items: flex-end;
+  display: flex;
+  gap: var(--spacing-xxxxxs);
+  width: 75%;
+}
+
+.buttonsWrapper {
+  display: flex;
+  gap: var(--spacing-xxxxxs);
+}
+
+.children {
+  border-top: 1px solid var(--color-grey-200);
+  color: var(--color-primary-600);
+  margin-top: var(--spacing-s);
+  padding-top: var(--spacing-s);
+  width: 100%;
+}
+
+@media screen and (--breakpoint-sm-desktop) {
+  .container {
+    align-items: center;
+    flex-direction: column;
+    gap: var(--spacing-xxs);
+  }
+
+  .tools {
+    flex-direction: column;
+    gap: var(--spacing-xxs);
+    width: 100%;
+  }
+
+  .children {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    padding-top: var(--spacing-xxs);
+  }
+}

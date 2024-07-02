@@ -1,0 +1,95 @@
+@import '../../styles/breakpoints.css';
+
+.modalOverlay {
+  align-items: center;
+  background-color: rgba(var(--color-primary-rgb-800) / 15%);
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 4;
+}
+
+.modalCard {
+  background-color: var(--color-white);
+  border-radius: var(--border-radius-m);
+  display: flex;
+  flex-direction: column;
+  max-height: 70vh;
+  padding: var(--spacing-xxs);
+
+  &.small {
+    width: 447px;
+  }
+
+  &.medium {
+    width: 534px;
+  }
+
+  &.large {
+    width: 674px;
+  }
+}
+
+.modalContentWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-s);
+  overflow-y: auto;
+}
+
+.modalHeader {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: var(--spacing-xxs);
+}
+
+.modalHeadline {
+  font-size: var(--headline-font-size-s);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--headline-line-height-s);
+}
+
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xxs);
+  overflow-y: auto;
+}
+
+.modalFooter {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-xxs);
+  justify-content: flex-end;
+}
+
+@media screen and (--breakpoint-sm-mobile) {
+  .modalCard {
+    margin: 0 5%;
+  }
+
+  .modalFooter {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .modalFooter button {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    max-width: unset;
+    width: 100%;
+  }
+}
+
+@media screen and (--breakpoint-md-tablet) {
+  .modalCard {
+    margin: 0 5%;
+  }
+}

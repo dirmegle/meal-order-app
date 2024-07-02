@@ -1,0 +1,24 @@
+@import '../../styles/breakpoints.css';
+
+.mappingBox {
+  display: grid;
+  grid-gap: var(--spacing-m);
+  grid-template-columns: repeat(auto-fill, minmax(263px, 1fr));
+  justify-content: space-between;
+  justify-items: start;
+  list-style: none;
+  margin-top: var(--spacing-m);
+}
+
+.noResults {
+  margin-top: var(--spacing-m);
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (--breakpoint-lg-tablet) {
+  .mappingBox {
+    display: flex;
+    flex-direction: column;
+  }
+}

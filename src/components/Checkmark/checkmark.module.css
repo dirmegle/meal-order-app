@@ -1,0 +1,89 @@
+:root {
+  --checkbox-size: 1.25rem;
+}
+
+.checkboxContainer {
+  color: var(--font-color-tertiary);
+  cursor: pointer;
+  display: block;
+  font-size: var(--label-font-size-m);
+  line-height: var(--label-line-height-m);
+  padding-left: calc(var(--checkbox-size) + var(--spacing-xxxxs));
+  position: relative;
+  user-select: none;
+}
+
+.checkbox {
+  cursor: pointer;
+  height: 0;
+  opacity: 0;
+  position: absolute;
+  width: 0;
+}
+
+.customCheckbox {
+  background-color: transparent;
+  border: 2px solid var(--color-secondary-300);
+  border-radius: var(--border-radius-s);
+  height: var(--checkbox-size);
+  left: 0;
+  position: absolute;
+  top: 2px;
+  width: var(--checkbox-size);
+}
+
+.checkbox:checked + .customCheckbox {
+  background-color: var(--color-secondary-300);
+}
+
+.checkbox:checked ~ .customCheckbox::after {
+  display: block;
+}
+
+.customCheckbox::after {
+  background-image: url('../../assets/icons/inputs/checkMark.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: fill;
+  content: '';
+  display: none;
+  height: 0.8rem;
+  left: 2px;
+  position: absolute;
+  top: 2px;
+  width: 0.8rem;
+}
+
+.checkbox:focus + .customCheckbox {
+  outline: var(--color-purple-500) auto 5px;
+}
+
+.checkbox:checked:disabled + .customCheckbox {
+  background-color: var(--color-grey-300);
+  border: 2px solid var(--color-grey-300);
+  cursor: default;
+}
+
+.checkbox:disabled + .customCheckbox {
+  border: 2px solid var(--color-grey-500);
+  cursor: default;
+}
+
+.labelDisabled {
+  color: var(--color-grey-500);
+  cursor: default;
+}
+
+.customCheckbox.checkboxInError {
+  border: 2px solid var(--color-red-600);
+}
+
+.labelInError {
+  color: var(--color-red-600);
+}
+
+.errorMessage {
+  color: var(--color-red-600);
+  font-size: var(--body-font-size-m);
+  line-height: var(--body-line-height-m);
+}

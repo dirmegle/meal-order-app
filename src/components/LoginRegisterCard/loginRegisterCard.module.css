@@ -1,0 +1,17 @@
+.loginRegisterCard {
+  border-radius: var(--border-radius-m);
+  box-shadow: var(--box-shadow-m);
+  padding: var(--spacing-s);
+}
+
+.loginRegisterCardHeader {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.loginRegisterCardContent {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-s);
+}

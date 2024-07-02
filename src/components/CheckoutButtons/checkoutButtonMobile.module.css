@@ -1,0 +1,81 @@
+.container {
+  background-color: var(--color-grey-300);
+  border-radius: var(--border-radius-xxl);
+  color: var(--font-color-primary);
+  font-size: var(--label-font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  height: max-content;
+  letter-spacing: var(--label-font-letter-spacing);
+  line-height: var(--label-line-height-xs);
+  overflow: hidden;
+  padding: var(--spacing-xxxxxs);
+  position: relative;
+  width: 160px;
+
+  &.confirmed {
+    background-color: var(--color-green-400);
+  }
+
+  &.disabled {
+    opacity: 0.4;
+  }
+}
+
+.slider {
+  align-items: center;
+  background-color: var(--color-grey-300);
+  border-radius: var(--border-radius-xxl);
+  display: flex;
+  gap: var(--spacing-xxxs);
+  margin-left: -60px;
+  overflow: hide;
+  position: relative;
+  transition: transform 0.3s ease;
+  width: max-content;
+}
+
+.button {
+  background: var(--color-green-400)
+    url('../../assets/icons/buttons/checkoutButtons/checkMobileBlack.svg') center no-repeat;
+  border: none;
+  border-radius: 50%;
+  box-shadow: var(--box-shadow-m);
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+}
+
+.submitedText {
+  align-items: center;
+  color: var(--color-white);
+  display: flex;
+  gap: var(--spacing-xxxs);
+  justify-content: right;
+}
+
+.icon {
+  background: var(--color-white)
+    url('../../assets/icons/buttons/checkoutButtons/checkMobileGreen.svg') center no-repeat;
+  border-radius: 50%;
+  box-shadow: var(--box-shadow-m);
+  height: 40px;
+  width: 40px;
+}
+
+.textOnLeft {
+  opacity: 0;
+  transition: opacity 1.5s;
+
+  &.dragging {
+    opacity: 1;
+  }
+}
+
+.textOnRight {
+  opacity: 1;
+  transition: opacity 1.5s;
+
+  &.dragging {
+    opacity: 0;
+  }
+}

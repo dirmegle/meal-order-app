@@ -1,0 +1,72 @@
+@import '../styles/breakpoints.css';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.main {
+  display: flex;
+  gap: 50px;
+  margin-right: 50px;
+  padding: var(--spacing-xxxxl) 0 0;
+}
+
+.image {
+  border: 1px solid var(--color-grey-200);
+  border-left: 0;
+  border-radius: 0 var(--border-radius-xl) var(--border-radius-xl) 0;
+  box-shadow: var(--box-shadow-m);
+  height: 100%;
+  max-width: 55%;
+  object-fit: cover;
+}
+
+.form {
+  height: fit-content;
+  margin: 0 auto;
+  max-width: 391px;
+  width: 100%;
+}
+
+@media screen and (--breakpoint-md-tablet) {
+  .main {
+    align-items: center;
+    flex-direction: column;
+    gap: var(--spacing-s);
+    margin-right: 0;
+    padding: 0 0 var(--spacing-xs);
+  }
+
+  .image {
+    border-left: 1px solid var(--color-grey-200);
+    border-radius: 0 0 var(--border-radius-xl) var(--border-radius-xl);
+    border-top: 0;
+    height: auto;
+    width: 30%;
+  }
+}
+
+@media screen and (--breakpoint-xxxl) {
+  .container {
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  .image {
+    border-radius: var(--border-radius-xl);
+  }
+}
+
+@media screen and (--breakpoint-sm-mobile) {
+  .form {
+    margin: 0 5%;
+    width: 90%;
+  }
+
+  .main {
+    margin-right: 0;
+  }
+}

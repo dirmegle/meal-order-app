@@ -1,0 +1,160 @@
+@import '../../styles/breakpoints.css';
+
+.container {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-grey-100);
+  border-radius: var(--border-radius-m);
+  box-shadow: var(--box-shadow-m);
+  padding: var(--spacing-xxs);
+}
+
+.titleContainer {
+  display: flex;
+  gap: var(--spacing-xxxxs);
+}
+
+.titleImageBg {
+  background: var(--orange-gradient);
+  border-radius: var(--border-radius-m) var(--border-radius-l) var(--border-radius-xxxl);
+  box-shadow: var(--box-shadow-s);
+  height: 104px;
+  margin: -24px 0 0 -23px;
+  padding: 28px 52px;
+  position: relative;
+}
+
+.titleImage {
+  left: 50%;
+  max-width: 90px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.vendorName {
+  color: var(--color-grey-500);
+  font-size: var(--title-font-size-xs);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--title-line-height-xs);
+  text-transform: uppercase;
+}
+
+.dishName {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  font-size: var(--title-font-size-s);
+  font-weight: var(--font-weight-medium);
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.bodyContainer {
+  margin-top: var(--spacing-xs);
+}
+
+.mealDescription {
+  -webkit-box-orient: vertical;
+  color: var(--color-grey-500);
+  display: -webkit-box;
+  font-size: var(--body-font-size-m);
+  font-weight: var(--font-weight-regular);
+  -webkit-line-clamp: 2;
+  line-height: var(--body-line-height-m);
+  overflow: hidden;
+  position: relative;
+}
+
+.descriptionContainer:hover .mealDescriptionToolTipVisible {
+  visibility: visible;
+}
+
+.mealDescriptionToolTip {
+  background-color: var(--color-primary-800);
+  border-radius: var(--border-radius-s);
+  color: var(--color-white);
+  font-size: var(--body-font-size-s);
+  height: max-content;
+  margin-top: var(--spacing-xxxxs);
+  padding: var(--spacing-xxxxxs);
+  position: absolute;
+  visibility: hidden;
+  width: 10rem;
+  z-index: 1;
+}
+
+.mealDescriptionToolTip::before {
+  border-bottom: 12px solid var(--color-primary-800);
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  content: '';
+  display: block;
+  height: 0;
+  position: absolute;
+  top: -0.4rem;
+  width: 0;
+}
+
+.moreInfo {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: var(--spacing-xxxxs) 0 var(--spacing-xxs);
+}
+
+.score {
+  align-items: center;
+  display: flex;
+  font-size: var(--label-font-size-xs);
+  font-weight: var(--font-weight-semibold);
+}
+
+.noScore {
+  align-items: center;
+  display: flex;
+  font-size: var(--label-font-size-xxs);
+  font-weight: var(--font-weight-medium);
+}
+
+.star {
+  background-image: url('../../assets/icons/starRating.svg');
+  display: inline-block;
+  height: 12px;
+  margin-right: var(--spacing-xxxxxs);
+  width: 12px;
+}
+
+.pricingContainer {
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+}
+
+.priceTitle {
+  font-size: var(--body-font-size-s);
+}
+
+.commentWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.commentsTitle {
+  text-transform: uppercase;
+}
+
+.noComments {
+  color: var(--color-grey-500);
+  font-size: var(--body-font-size-s);
+}
+
+.priceValue {
+  font-size: var(--title-font-size-l);
+  font-weight: var(--font-weight-medium);
+}
+
+@media screen and (--breakpoint-sm-mobile) {
+  .container {
+    width: 100%;
+  }
+}

@@ -1,0 +1,46 @@
+@import '../../styles/breakpoints.css';
+
+.container {
+  align-items: center;
+  color: var(--font-color-secondary);
+  display: flex;
+  font-size: var(--title-font-size-s);
+  font-weight: var(--font-weight-medium);
+  justify-content: space-between;
+  line-height: var(--title-line-height-s);
+  min-width: 326px;
+}
+
+.selectRowPerPage {
+  appearance: none;
+  background-color: transparent;
+  background-image: url('../../assets/icons/arrowDropDownFilled.svg');
+  background-position: right;
+  background-repeat: no-repeat;
+  border: none;
+  color: var(--font-color-secondary);
+  cursor: pointer;
+  font-size: var(--title-font-size-s);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--title-line-height-s);
+  padding: 0 var(--spacing-xs) 0 var(--spacing-xxxxs);
+}
+
+.buttons {
+  display: flex;
+}
+
+@media screen and (--breakpoint-sm-mobile) {
+  .container {
+    font-size: var(--title-font-size-xs);
+    line-height: var(--title-line-height-xs);
+    min-width: auto;
+  }
+
+  .selectRowPerPage {
+    background-size: 15px;
+    font-size: var(--title-font-size-xs);
+    line-height: var(--title-line-height-xs);
+    padding-right: var(--spacing-xxxs);
+  }
+}

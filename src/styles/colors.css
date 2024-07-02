@@ -1,0 +1,50 @@
+/* Variables naming: --component-element-modifier. If modifiers are numbers, they indicate the degree or intensity - 100 is the lightest and 900 is the darkest.
+ Examples: --table-head-color, --navigation-link-icon-color */
+
+:root {
+  --color-primary-800: #0d1f2e;
+  --color-primary-600: #143149;
+  --color-primary-400: #1a4264;
+  --color-secondary-800: #c85207;
+  --color-secondary-600: #e26a00;
+  --color-secondary-400: #ff7f0f;
+  --color-secondary-300: #ffa631;
+  --color-secondary-200: #ffe9d6;
+  --color-secondary-100: #fef5ed;
+  --color-secondary-20: rgb(255 208 167 / 20%);
+  --color-secondary-10: rgb(255 208 167 / 10%);
+  --color-grey-800: #272930;
+  --color-grey-500: #636363;
+  --color-grey-400: #8d8d8d;
+  --color-grey-300: #c8c8c8;
+  --color-grey-200: #dddee0;
+  --color-grey-100: #f7f7f7;
+  --color-green-600: #17ce76;
+  --color-green-500: #00b368;
+  --color-green-400: #3be191;
+  --color-red-600: #d3232f;
+  --color-red-500: #de1a49;
+  --color-red-300: #ffd4d7;
+  --color-red-200: #ffc7c5;
+  --color-purple-500: #746ae9;
+  --color-purple-400: #9a91ff;
+  --color-purple-300: #b7b7fd;
+  --color-purple-200: #eaeefc;
+  --color-yellow-500: #eebb39;
+  --color-yellow-400: #fcda83;
+  --color-yellow-300: #ffe7a8;
+  --color-yellow-200: #ffefd0;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-orange-100: #fff5e8;
+  --color-orange-500: #ffcb86;
+  --orange-gradient: linear-gradient(to left top, var(--color-orange-500), var(--color-orange-100));
+  --color-grey-rgb-400: 141 141 141;
+  --color-grey-rgb-300: 200 200 200;
+  --color-primary-rgb-800: 13 31 46;
+  --color-primary-rgb-600: 20 49 73;
+  --color-black-rgb: 0 0 0;
+  --color-secondary-rgb-600: 226 106 0;
+  --color-purple-rgb: 33 150 243;
+  --color-green-400-rgb: 59 225 145;
+}

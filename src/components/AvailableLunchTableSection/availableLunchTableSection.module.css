@@ -1,0 +1,23 @@
+@import '../../styles/breakpoints.css';
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.noOrders {
+  text-align: center;
+}
+
+.loadingAnimationContainer {
+  height: 30rem;
+  margin: var(--spacing-l) auto;
+  width: 30rem;
+}
+
+@media screen and (--breakpoint-sm-mobile) {
+
+  .pagination {
+    display: block;
+  }
+}

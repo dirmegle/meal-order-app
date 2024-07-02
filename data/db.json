@@ -1,0 +1,1488 @@
+{
+  "usersLoginInfo": [
+    {
+      "userId": 1,
+      "userName": "frontender",
+      "password": "securePass*123",
+      "email": "frontender@email.com",
+      "id": "63b4"
+    },
+    {
+      "userId": 2,
+      "userName": "backender",
+      "password": "$eCure123",
+      "email": "backender@email.com",
+      "id": "71d3"
+    },
+    {
+      "userId": 3,
+      "userName": "engineer",
+      "password": "onE521#",
+      "email": "engineer@email.com",
+      "id": "d5da"
+    },
+    {
+      "userId": 4,
+      "userName": "tester",
+      "password": "#Asecure123",
+      "email": "tester@email.com",
+      "id": "2e4f"
+    },
+    {
+      "userId": 5,
+      "userName": "devops",
+      "password": "pasSs!123%",
+      "email": "devops@email.com",
+      "id": "b22d"
+    },
+    {
+      "userId": 6,
+      "userName": "backender2",
+      "password": "PassSecure#23",
+      "email": "backender2@email.com",
+      "id": "241b"
+    },
+    {
+      "userId": 7,
+      "userName": "backender3",
+      "password": "PaSsSecure#23",
+      "email": "backender3@email.com",
+      "id": "52f7"
+    },
+    {
+      "userId": 8,
+      "userName": "accountant",
+      "password": "VerySecure#23",
+      "email": "backender3@email.com",
+      "id": "d7e4"
+    },
+    {
+      "id": "1296",
+      "userId": 9,
+      "userName": "",
+      "password": "asdasdasd",
+      "email": "asd@asd.asd"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Burton",
+      "surname": "Whitaker",
+      "balance": 0.89,
+      "img": "https://lh3.googleusercontent.com/pw/AP1GczPd86eTOZysL0WAf9veGe6WIkEfvgX2zA1gKY65ylS64iQW5kK7ppYKO8uUBJkQZh5UNxDN-E9aJgvQFsS28YzQHREL4rU5_2TXUKd0xjZTd7tu8fCMKANM28tMIHhyD3KnhvA_s0gcvbkK447oLT9E=w611-h321-s-no-gm",
+      "orders": [
+        {
+          "weekDay": "Tuesday",
+          "mealIds": [13, 17]
+        },
+        {
+          "weekDay": "Wednesday",
+          "mealIds": [18, 21]
+        },
+        {
+          "weekDay": "Thursday",
+          "mealIds": [1, 4]
+        },
+        {
+          "weekDay": "Friday",
+          "mealIds": [2]
+        }
+      ],
+      "orderHistory": [
+        {
+          "date": "2023-11-22T17:03:14.000Z",
+          "mealsIds": [12]
+        },
+        {
+          "date": "2023-12-12T09:18:43.000Z",
+          "mealsIds": [18, 7]
+        },
+        {
+          "date": "2024-02-21T02:42:29.000Z",
+          "mealsIds": [15]
+        },
+        {
+          "date": "2024-03-19T14:57:12.000Z",
+          "mealsIds": [3, 11]
+        },
+        {
+          "date": "2024-04-24T06:31:56.000Z",
+          "mealsIds": [21]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Dorsey",
+      "surname": "Shepherd",
+      "balance": 45,
+      "img": "https://lh3.googleusercontent.com/pw/AP1GczN8h4gHh3CU2rbqTQ32im-ZGQFJh6_8pH_xZjX_xTjOGVgqgbuUfZzhgnraPvh3j3blvhsMqRh4vNss9jCxpA-hy8zllx3ffEsehoeYmSzNtlRrk4e30qOV-61y28NHCFjnPQvLFiAVRPsQyUQ_8z80=w613-h407-s-no-gm",
+      "orders": [
+        {
+          "weekDay": "Monday",
+          "mealIds": [15, 15]
+        },
+        {
+          "weekDay": "Tuesday",
+          "mealIds": [14, 18]
+        },
+        {
+          "weekDay": "Wednesday",
+          "mealIds": [8, 22]
+        },
+        {
+          "weekDay": "Thursday",
+          "mealIds": [5, 3]
+        },
+        {
+          "weekDay": "Friday",
+          "mealIds": [1, 19]
+        }
+      ],
+      "orderHistory": [
+        {
+          "date": "2023-11-28T10:19:37.000Z",
+          "mealsIds": [16]
+        },
+        {
+          "date": "2023-12-14T02:53:20.000Z",
+          "mealsIds": [8, 1]
+        },
+        {
+          "date": "2023-12-29T15:27:03.000Z",
+          "mealsIds": [11]
+        },
+        {
+          "date": "2024-01-19T07:00:46.000Z",
+          "mealsIds": [20, 5]
+        },
+        {
+          "date": "2024-02-09T23:34:29.000Z",
+          "mealsIds": [17]
+        },
+        {
+          "date": "2024-02-24T12:08:12.000Z",
+          "mealsIds": []
+        },
+        {
+          "date": "2024-03-15T04:41:55.000Z",
+          "mealsIds": [3, 9]
+        },
+        {
+          "date": "2024-04-05T17:15:38.000Z",
+          "mealsIds": [12]
+        },
+        {
+          "date": "2024-04-20T09:49:21.000Z",
+          "mealsIds": [18]
+        },
+        {
+          "date": "2024-05-01T02:23:04.000Z",
+          "mealsIds": [2, 21]
+        },
+        {
+          "date": "2023-11-21T18:58:14.000Z",
+          "mealsIds": [13]
+        },
+        {
+          "date": "2023-12-06T11:32:47.000Z",
+          "mealsIds": [7]
+        },
+        {
+          "date": "2023-12-21T04:07:30.000Z",
+          "mealsIds": [19, 4]
+        },
+        {
+          "date": "2024-01-11T16:41:13.000Z",
+          "mealsIds": [22]
+        },
+        {
+          "date": "2024-01-31T09:15:46.000Z",
+          "mealsIds": [1]
+        },
+        {
+          "date": "2024-02-10T01:49:29.000Z",
+          "mealsIds": [15]
+        },
+        {
+          "date": "2024-02-25T14:22:12.000Z",
+          "mealsIds": [6]
+        },
+        {
+          "date": "2024-03-16T07:06:55.000Z",
+          "mealsIds": [10]
+        },
+        {
+          "date": "2024-04-06T20:40:38.000Z",
+          "mealsIds": [21]
+        },
+        {
+          "date": "2024-04-21T12:13:21.000Z",
+          "mealsIds": [14]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Amalia",
+      "surname": "Clements",
+      "balance": 19.34,
+      "img": "https://lh3.googleusercontent.com/pw/AP1GczNxx7hUZVWjQXfi9axHa9kNC0oldSfSJsw0M2Gccn1yK480_Dd5VcvqeQ0weKo6tsqbbbqYMYVR8flDccmrqrFEU0mnOK9ixVzQgx1ao7ZPZ-h8skuWIA_bzoGqwXVvyuRVWZfip4FHawhfZ7u4d_VK=w610-h407-s-no-gm",
+      "orders": [
+        {
+          "weekDay": "Monday",
+          "mealIds": [17, 19]
+        },
+        {
+          "weekDay": "Tuesday",
+          "mealIds": [12, 11]
+        },
+        {
+          "weekDay": "Wednesday",
+          "mealIds": [5, 4]
+        },
+        {
+          "weekDay": "Thursday",
+          "mealIds": [13, 13]
+        },
+        {
+          "weekDay": "Friday",
+          "mealIds": [10, 14]
+        }
+      ],
+      "orderHistory": [
+        {
+          "date": "2023-11-28T10:19:37.000Z",
+          "mealsIds": [16]
+        },
+        {
+          "date": "2023-12-14T02:53:20.000Z",
+          "mealsIds": [8, 1]
+        },
+        {
+          "date": "2023-12-29T15:27:03.000Z",
+          "mealsIds": [11]
+        },
+        {
+          "date": "2024-01-19T07:00:46.000Z",
+          "mealsIds": [20, 5]
+        },
+        {
+          "date": "2024-02-09T23:34:29.000Z",
+          "mealsIds": [17]
+        },
+        {
+          "date": "2024-02-24T12:08:12.000Z",
+          "mealsIds": []
+        },
+        {
+          "date": "2024-03-15T04:41:55.000Z",
+          "mealsIds": [3, 9]
+        },
+        {
+          "date": "2024-04-05T17:15:38.000Z",
+          "mealsIds": [12]
+        },
+        {
+          "date": "2024-04-20T09:49:21.000Z",
+          "mealsIds": [18]
+        },
+        {
+          "date": "2024-05-01T02:23:04.000Z",
+          "mealsIds": [2, 21]
+        },
+        {
+          "date": "2023-11-21T18:58:14.000Z",
+          "mealsIds": [13]
+        },
+        {
+          "date": "2023-12-06T11:32:47.000Z",
+          "mealsIds": [7]
+        },
+        {
+          "date": "2023-12-21T04:07:30.000Z",
+          "mealsIds": [19, 4]
+        },
+        {
+          "date": "2024-01-11T16:41:13.000Z",
+          "mealsIds": [22]
+        },
+        {
+          "date": "2024-01-31T09:15:46.000Z",
+          "mealsIds": [1]
+        },
+        {
+          "date": "2024-02-10T01:49:29.000Z",
+          "mealsIds": [15]
+        },
+        {
+          "date": "2024-02-25T14:22:12.000Z",
+          "mealsIds": [6]
+        },
+        {
+          "date": "2024-03-16T07:06:55.000Z",
+          "mealsIds": [10]
+        },
+        {
+          "date": "2024-04-06T20:40:38.000Z",
+          "mealsIds": [21]
+        },
+        {
+          "date": "2024-04-21T12:13:21.000Z",
+          "mealsIds": [14]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Addie",
+      "surname": "Horton",
+      "balance": 12.22,
+      "img": "https://lh3.googleusercontent.com/pw/AP1GczMpmk11zhuVZ2G_UB4GexN9phSuaDZ4JSEMgk9l2FKavowvTv9mkElxB-eem33gEj49tFZUDn1XaI_bkEXVp7ZdEOpDbTeK8EjGdhtPDJxCc5ymDuMvVRwZTA6Oca6ID1nGQA2o36zBGz_jgknVovdw=w609-h344-s-no-gm",
+      "orders": [
+        {
+          "weekDay": "Monday",
+          "mealIds": [19, 7]
+        },
+        {
+          "weekDay": "Tuesday",
+          "mealIds": [1, 21]
+        },
+        {
+          "weekDay": "Thursday",
+          "mealIds": [12, 20]
+        },
+        {
+          "weekDay": "Friday",
+          "mealIds": [12, 19]
+        }
+      ],
+      "orderHistory": [
+        {
+          "date": "2023-11-28T10:19:37.000Z",
+          "mealsIds": [16]
+        },
+        {
+          "date": "2023-12-14T02:53:20.000Z",
+          "mealsIds": [8, 1]
+        },
+        {
+          "date": "2023-12-29T15:27:03.000Z",
+          "mealsIds": [11]
+        },
+        {
+          "date": "2024-01-19T07:00:46.000Z",
+          "mealsIds": [20, 5]
+        },
+        {
+          "date": "2024-02-09T23:34:29.000Z",
+          "mealsIds": [17]
+        },
+        {
+          "date": "2024-02-24T12:08:12.000Z",
+          "mealsIds": []
+        },
+        {
+          "date": "2024-03-15T04:41:55.000Z",
+          "mealsIds": [3, 9]
+        },
+        {
+          "date": "2024-04-05T17:15:38.000Z",
+          "mealsIds": [12]
+        },
+        {
+          "date": "2024-04-20T09:49:21.000Z",
+          "mealsIds": [18]
+        },
+        {
+          "date": "2024-05-01T02:23:04.000Z",
+          "mealsIds": [2, 21]
+        },
+        {
+          "date": "2023-11-21T18:58:14.000Z",
+          "mealsIds": [13]
+        },
+        {
+          "date": "2023-12-06T11:32:47.000Z",
+          "mealsIds": [7]
+        },
+        {
+          "date": "2023-12-21T04:07:30.000Z",
+          "mealsIds": [19, 4]
+        },
+        {
+          "date": "2024-01-11T16:41:13.000Z",
+          "mealsIds": [22]
+        },
+        {
+          "date": "2024-01-31T09:15:46.000Z",
+          "mealsIds": [1]
+        },
+        {
+          "date": "2024-02-10T01:49:29.000Z",
+          "mealsIds": [15]
+        },
+        {
+          "date": "2024-02-25T14:22:12.000Z",
+          "mealsIds": [6]
+        },
+        {
+          "date": "2024-03-16T07:06:55.000Z",
+          "mealsIds": [10]
+        },
+        {
+          "date": "2024-04-06T20:40:38.000Z",
+          "mealsIds": [21]
+        },
+        {
+          "date": "2024-04-21T12:13:21.000Z",
+          "mealsIds": [14]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Lacey",
+      "surname": "Combs",
+      "balance": 8.31,
+      "img": "https://lh3.googleusercontent.com/pw/AP1GczMEFyPtgHzU4U-kLNuyb9FES-wKXPYvvGp3BoRTJKfKIWb6tirHkbx0QMba_-C96oNzFGmi6_45WHx_E0SfkI-zZQeCB0t5iMv-Kp3ZTJ2EeAlBJUPo9yiOv8gvbz-3TpuscIQMvTV5GkmAY6_Xy-Lo=w611-h407-s-no-gm",
+      "orders": [
+        {
+          "weekDay": "Monday",
+          "mealIds": [21, 17]
+        },
+        {
+          "weekDay": "Tuesday",
+          "mealIds": [19, 21]
+        },
+        {
+          "weekDay": "Wednesday",
+          "mealIds": [2, 9]
+        },
+        {
+          "weekDay": "Thursday",
+          "mealIds": [8, 1]
+        },
+        {
+          "weekDay": "Friday",
+          "mealIds": [22]
+        }
+      ],
+      "orderHistory": [
+        {
+          "date": "2023-11-28T10:19:37.000Z",
+          "mealsIds": [16]
+        },
+        {
+          "date": "2023-12-14T02:53:20.000Z",
+          "mealsIds": [8, 1]
+        },
+        {
+          "date": "2023-12-29T15:27:03.000Z",
+          "mealsIds": [11]
+        },
+        {
+          "date": "2024-01-19T07:00:46.000Z",
+          "mealsIds": [20, 5]
+        },
+        {
+          "date": "2024-02-09T23:34:29.000Z",
+          "mealsIds": [17]
+        },
+        {
+          "date": "2024-02-24T12:08:12.000Z",
+          "mealsIds": [3, 22]
+        },
+        {
+          "date": "2024-03-15T04:41:55.000Z",
+          "mealsIds": [3, 9]
+        },
+        {
+          "date": "2024-04-05T17:15:38.000Z",
+          "mealsIds": [12]
+        },
+        {
+          "date": "2024-04-20T09:49:21.000Z",
+          "mealsIds": [18]
+        },
+        {
+          "date": "2024-05-01T02:23:04.000Z",
+          "mealsIds": [2, 21]
+        },
+        {
+          "date": "2023-11-21T18:58:14.000Z",
+          "mealsIds": [13]
+        },
+        {
+          "date": "2023-12-06T11:32:47.000Z",
+          "mealsIds": [7]
+        },
+        {
+          "date": "2023-12-21T04:07:30.000Z",
+          "mealsIds": [19, 4]
+        },
+        {
+          "date": "2024-01-11T16:41:13.000Z",
+          "mealsIds": [22]
+        },
+        {
+          "date": "2024-01-31T09:15:46.000Z",
+          "mealsIds": [1]
+        },
+        {
+          "date": "2024-02-10T01:49:29.000Z",
+          "mealsIds": [15]
+        },
+        {
+          "date": "2024-02-25T14:22:12.000Z",
+          "mealsIds": [6]
+        },
+        {
+          "date": "2024-03-16T07:06:55.000Z",
+          "mealsIds": [10]
+        },
+        {
+          "date": "2024-04-06T20:40:38.000Z",
+          "mealsIds": [21]
+        },
+        {
+          "date": "2024-04-21T12:13:21.000Z",
+          "mealsIds": [14]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Stanton",
+      "surname": "Richardson",
+      "balance": 106.55,
+      "img": "https://lh3.googleusercontent.com/pw/AP1GczOPmz6MNqqTx2YZekmxppn88NfHDX4qSdH1foq865siphuhKlwTKyqxXhvYmbi28KleHbRtQYEuTSeKP4ib0BTwGKAtCvhw-gBgUxktYziqlh5u9EI-pyYi2cLlaGPXBlTkfRvZJSlDttN7cFAvD03H=w612-h323-s-no-gm",
+      "orders": [
+        {
+          "weekDay": "Monday",
+          "mealIds": [6, 3]
+        },
+        {
+          "weekDay": "Wednesday",
+          "mealIds": [6, 11]
+        },
+        {
+          "weekDay": "Thursday",
+          "mealIds": [21]
+        }
+      ],
+      "orderHistory": [
+        {
+          "date": "2023-11-27T08:49:37.465Z",
+          "mealsIds": [11]
+        },
+        {
+          "date": "2023-11-29T08:01:45.841Z",
+          "mealsIds": [6, 9]
+        },
+        {
+          "date": "2023-11-30T08:16:25.653Z",
+          "mealsIds": [6, 14]
+        },
+        {
+          "date": "2023-12-06T08:21:15.111Z",
+          "mealsIds": [16]
+        },
+        {
+          "date": "2023-12-08T07:39:10.144Z",
+          "mealsIds": [2, 10]
+        },
+        {
+          "date": "2023-12-11T07:37:45.559Z",
+          "mealsIds": [3, 8]
+        },
+        {
+          "date": "2023-12-15T08:45:57.653Z",
+          "mealsIds": [7, 12]
+        },
+        {
+          "date": "2023-12-19T08:02:24.856Z",
+          "mealsIds": [5, 6]
+        },
+        {
+          "date": "2024-01-02T09:25:13.308Z",
+          "mealsIds": [13]
+        },
+        {
+          "date": "2024-01-04T07:16:47.554Z",
+          "mealsIds": [9]
+        },
+        {
+          "date": "2024-01-15T09:59:56.451Z",
+          "mealsIds": [8, 11]
+        },
+        {
+          "date": "2024-01-19T07:41:19.397Z",
+          "mealsIds": [1, 12]
+        },
+        {
+          "date": "2024-01-22T08:05:37.352Z",
+          "mealsIds": [16]
+        },
+        {
+          "date": "2024-01-24T08:22:07.492Z",
+          "mealsIds": [4, 8]
+        },
+        {
+          "date": "2024-01-25T08:08:08.188Z",
+          "mealsIds": [14]
+        },
+        {
+          "date": "2024-02-02T08:20:56.498Z",
+          "mealsIds": [2, 10]
+        },
+        {
+          "date": "2024-02-05T07:51:05.343Z",
+          "mealsIds": [3, 8]
+        },
+        {
+          "date": "2024-02-06T08:14:35.696Z",
+          "mealsIds": [4, 6]
+        },
+        {
+          "date": "2024-02-23T09:05:41.729Z",
+          "mealsIds": [1, 2]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Anna",
+      "surname": "Sanders",
+      "balance": 55.55,
+      "img": "",
+      "orders": [
+        {
+          "weekDay": "Monday",
+          "mealIds": [6, 3]
+        },
+        {
+          "weekDay": "Tuesday",
+          "mealIds": [1, 15]
+        },
+        {
+          "weekDay": "Wednesday",
+          "mealIds": [6, 11]
+        },
+        {
+          "weekDay": "Thursday",
+          "mealIds": [21]
+        },
+        {
+          "weekDay": "Friday",
+          "mealIds": [7, 12]
+        }
+      ],
+      "orderHistory": [
+        {
+          "date": "2023-11-27T08:49:37.465Z",
+          "mealsIds": [11]
+        },
+        {
+          "date": "2023-11-29T08:01:45.841Z",
+          "mealsIds": [6, 9]
+        },
+        {
+          "date": "2023-11-30T08:16:25.653Z",
+          "mealsIds": [6, 14]
+        },
+        {
+          "date": "2023-12-06T08:21:15.111Z",
+          "mealsIds": [16]
+        },
+        {
+          "date": "2023-12-08T07:39:10.144Z",
+          "mealsIds": [2, 10]
+        },
+        {
+          "date": "2023-12-11T07:37:45.559Z",
+          "mealsIds": [3, 8]
+        },
+        {
+          "date": "2023-12-15T08:45:57.653Z",
+          "mealsIds": [7, 12]
+        },
+        {
+          "date": "2023-12-19T08:02:24.856Z",
+          "mealsIds": [5, 6]
+        },
+        {
+          "date": "2024-01-02T09:25:13.308Z",
+          "mealsIds": [13]
+        },
+        {
+          "date": "2024-01-04T07:16:47.554Z",
+          "mealsIds": [9]
+        },
+        {
+          "date": "2024-01-15T09:59:56.451Z",
+          "mealsIds": [8, 11]
+        },
+        {
+          "date": "2024-01-19T07:41:19.397Z",
+          "mealsIds": [1, 12]
+        },
+        {
+          "date": "2024-01-22T08:05:37.352Z",
+          "mealsIds": [16]
+        },
+        {
+          "date": "2024-01-24T08:22:07.492Z",
+          "mealsIds": [4, 8]
+        },
+        {
+          "date": "2024-01-25T08:08:08.188Z",
+          "mealsIds": [14]
+        },
+        {
+          "date": "2024-02-02T08:20:56.498Z",
+          "mealsIds": [2, 10]
+        },
+        {
+          "date": "2024-02-05T07:51:05.343Z",
+          "mealsIds": [3, 8]
+        },
+        {
+          "date": "2024-02-06T08:14:35.696Z",
+          "mealsIds": [4, 6]
+        },
+        {
+          "date": "2024-02-23T09:05:41.729Z",
+          "mealsIds": [1, 2]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Suzan",
+      "surname": "Anderson",
+      "balance": 30.05,
+      "img": "",
+      "orders": [
+        {
+          "weekDay": "Monday",
+          "mealIds": [9, 13]
+        },
+        {
+          "weekDay": "Tuesday",
+          "mealIds": [18, 5]
+        },
+        {
+          "weekDay": "Wednesday",
+          "mealIds": [16, 10]
+        },
+        {
+          "weekDay": "Thursday",
+          "mealIds": [15]
+        },
+        {
+          "weekDay": "Friday",
+          "mealIds": [3, 12]
+        }
+      ],
+      "orderHistory": [
+        {
+          "date": "2023-11-27T08:49:37.465Z",
+          "mealsIds": [11]
+        },
+        {
+          "date": "2023-11-29T08:01:45.841Z",
+          "mealsIds": [6, 9]
+        },
+        {
+          "date": "2023-11-30T08:16:25.653Z",
+          "mealsIds": [6, 14]
+        },
+        {
+          "date": "2023-12-06T08:21:15.111Z",
+          "mealsIds": [16]
+        },
+        {
+          "date": "2023-12-08T07:39:10.144Z",
+          "mealsIds": [2, 10]
+        },
+        {
+          "date": "2023-12-11T07:37:45.559Z",
+          "mealsIds": [3, 8]
+        },
+        {
+          "date": "2023-12-15T08:45:57.653Z",
+          "mealsIds": [7, 12]
+        },
+        {
+          "date": "2023-12-19T08:02:24.856Z",
+          "mealsIds": [5, 6]
+        },
+        {
+          "date": "2024-01-02T09:25:13.308Z",
+          "mealsIds": [13]
+        },
+        {
+          "date": "2024-01-04T07:16:47.554Z",
+          "mealsIds": [9]
+        },
+        {
+          "date": "2024-01-15T09:59:56.451Z",
+          "mealsIds": [8, 11]
+        },
+        {
+          "date": "2024-01-19T07:41:19.397Z",
+          "mealsIds": [1, 12]
+        },
+        {
+          "date": "2024-01-22T08:05:37.352Z",
+          "mealsIds": [16]
+        },
+        {
+          "date": "2024-01-24T08:22:07.492Z",
+          "mealsIds": [4, 8]
+        },
+        {
+          "date": "2024-01-25T08:08:08.188Z",
+          "mealsIds": [14]
+        },
+        {
+          "date": "2024-02-02T08:20:56.498Z",
+          "mealsIds": [2, 10]
+        },
+        {
+          "date": "2024-02-05T07:51:05.343Z",
+          "mealsIds": [3, 8]
+        },
+        {
+          "date": "2024-02-06T08:14:35.696Z",
+          "mealsIds": [4, 6]
+        },
+        {
+          "date": "2024-02-23T09:05:41.729Z",
+          "mealsIds": [1, 2]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "asd",
+      "surname": "asd",
+      "balance": 0,
+      "img": "",
+      "orders": [],
+      "orderHistory": []
+    }
+  ],
+  "vendors": [
+    {
+      "id": "1",
+      "name": "Tasty Bites"
+    },
+    {
+      "id": "2",
+      "name": "Spice Haven"
+    },
+    {
+      "id": "3",
+      "name": "Pizza Deliziosa"
+    },
+    {
+      "id": "4",
+      "name": "Smash Burgers"
+    }
+  ],
+  "meals": [
+    {
+      "id": "1",
+      "vendorId": 1,
+      "title": "Veggie Supreme Wrap",
+      "description": "Wrap filled with a variety of fresh vegetables and a mild cilantro-lime topping.",
+      "price": 5.99,
+      "ordersCount": 30,
+      "weekDays": ["Friday"],
+      "vegetarian": true,
+      "spicy": false,
+      "mealType": "main",
+      "dishType": "wrap"
+    },
+    {
+      "id": "2",
+      "vendorId": 1,
+      "title": "Creamy Tomato Basil Soup",
+      "description": "Tomatoes, fresh basil, and cream, blended to perfection.",
+      "price": 3.49,
+      "ordersCount": 38,
+      "weekDays": ["Friday"],
+      "vegetarian": true,
+      "spicy": false,
+      "mealType": "soup",
+      "dishType": "soup"
+    },
+    {
+      "id": "3",
+      "vendorId": 1,
+      "title": "Chicken Alfredo Pasta",
+      "description": "Grilled chicken, fettuccine pasta, and creamy Alfredo sauce.",
+      "price": 6.5,
+      "ordersCount": 8,
+      "weekDays": ["Monday", "Wednesday"],
+      "vegetarian": false,
+      "spicy": false,
+      "mealType": "main",
+      "dishType": "pasta"
+    },
+    {
+      "id": "4",
+      "vendorId": 2,
+      "title": "Vegetarian Pad Thai",
+      "description": "Stir-fried rice noodles with tofu, bean sprouts, and peanuts.",
+      "price": 7.99,
+      "ordersCount": 18,
+      "weekDays": ["Monday", "Wednesday"],
+      "vegetarian": true,
+      "spicy": true,
+      "mealType": "main",
+      "dishType": "thai"
+    },
+    {
+      "id": "5",
+      "vendorId": 2,
+      "title": "Spicy Chicken Curry",
+      "description": "Tender chicken pieces in a rich and spicy curry sauce. Perfect for spice lovers.",
+      "price": 10.49,
+      "ordersCount": 22,
+      "weekDays": ["Tuesday", "Thursday"],
+      "vegetarian": false,
+      "spicy": true,
+      "mealType": "main",
+      "dishType": "thai"
+    },
+    {
+      "id": "6",
+      "vendorId": 2,
+      "title": "Hearty Beef and Vegetable Soup",
+      "description": "Soup featuring tender beef, assorted vegetables, and a rich broth.",
+      "price": 2.99,
+      "ordersCount": 29,
+      "weekDays": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+      "vegetarian": false,
+      "spicy": false,
+      "mealType": "soup",
+      "dishType": "soup"
+    },
+    {
+      "id": "7",
+      "vendorId": 3,
+      "title": "Pepperoni Lover's Pizza",
+      "description": "Loaded with spicy pepperoni, mozzarella, and tomato sauce.",
+      "price": 7.99,
+      "ordersCount": 31,
+      "weekDays": ["Friday"],
+      "vegetarian": false,
+      "spicy": true,
+      "mealType": "main",
+      "dishType": "pizza"
+    },
+    {
+      "id": "8",
+      "vendorId": 1,
+      "title": "Vegetable Minestrone Soup",
+      "description": "A hearty soup with a variety of fresh vegetables and pasta.",
+      "price": 1.8,
+      "ordersCount": 21,
+      "weekDays": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+      "vegetarian": true,
+      "spicy": false,
+      "mealType": "soup",
+      "dishType": "soup"
+    },
+    {
+      "id": "9",
+      "vendorId": 2,
+      "title": "Shrimp Pad Thai",
+      "description": "Wok-fried rice noodles with shrimp, bean sprouts, and peanuts.",
+      "price": 6.99,
+      "ordersCount": 25,
+      "weekDays": ["Tuesday", "Thursday"],
+      "vegetarian": false,
+      "spicy": false,
+      "mealType": "main",
+      "dishType": "thai"
+    },
+    {
+      "id": "10",
+      "vendorId": 1,
+      "title": "Beef and Broccoli Stir-Fry",
+      "description": "Sliced beef, broccoli, and soy-based sauce served over rice.",
+      "price": 11.99,
+      "ordersCount": 44,
+      "weekDays": ["Friday"],
+      "vegetarian": false,
+      "spicy": false,
+      "mealType": "main",
+      "dishType": "thai"
+    },
+    {
+      "id": "11",
+      "vendorId": 3,
+      "title": "Classic Margherita Pizza",
+      "description": "Fresh mozzarella, tomatoes, and basil on a crispy crust.",
+      "price": 7.99,
+      "ordersCount": 25,
+      "weekDays": ["Monday", "Wednesday", "Friday"],
+      "vegetarian": true,
+      "spicy": false,
+      "mealType": "main",
+      "dishType": "pizza"
+    },
+    {
+      "id": "12",
+      "vendorId": 2,
+      "title": "Tom Yum Soup",
+      "description": "Hot and sour Thai soup with shrimp, lemongrass, and mushrooms.",
+      "price": 3.49,
+      "ordersCount": 33,
+      "weekDays": ["Tuesday", "Friday"],
+      "vegetarian": false,
+      "spicy": true,
+      "mealType": "soup",
+      "dishType": "soup"
+    },
+    {
+      "id": "13",
+      "vendorId": 3,
+      "title": "Meat Lover's Pizza",
+      "description": "Combination of savory Italian sausage, crispy bacon, pepperoni slices, and ham, all atop a bed of melted mozzarella cheese and tangy tomato sauce.",
+      "price": 6.99,
+      "ordersCount": 19,
+      "weekDays": ["Tuesday", "Thursday"],
+      "vegetarian": false,
+      "spicy": false,
+      "mealType": "main",
+      "dishType": "pizza"
+    },
+    {
+      "id": "14",
+      "vendorId": 1,
+      "title": "Mediterranean Grilled Chicken Salad",
+      "description": "Fresh mixed greens topped with grilled chicken breast, cherry tomatoes, cucumbers, olives, feta cheese, and a tangy Mediterranean dressing.",
+      "price": 5.49,
+      "ordersCount": 10,
+      "weekDays": ["Tuesday", "Thursday", "Friday"],
+      "vegetarian": false,
+      "spicy": false,
+      "mealType": "main",
+      "dishType": "salad"
+    },
+    {
+      "id": "15",
+      "vendorId": 1,
+      "title": "Beef Tacos with Salsa and Guacamole",
+      "description": "Two soft corn tortillas filled with seasoned ground beef, served with fresh salsa, guacamole, and a wedge of lime.",
+      "price": 5.99,
+      "ordersCount": 29,
+      "weekDays": ["Monday", "Wednesday"],
+      "vegetarian": false,
+      "spicy": true,
+      "mealType": "main",
+      "dishType": "tacos"
+    },
+    {
+      "id": "16",
+      "vendorId": 2,
+      "title": "Grilled Steak with Roasted Potatoes",
+      "description": "Tender grilled steak served with seasoned roasted potatoes and a side of fresh vegetables.",
+      "price": 8.99,
+      "ordersCount": 13,
+      "weekDays": ["Monday", "Wednesday"],
+      "vegetarian": false,
+      "spicy": false,
+      "mealType": "main",
+      "dishType": "steak"
+    },
+    {
+      "id": "17",
+      "vendorId": 3,
+      "title": "Club Sandwich",
+      "description": "Triple-decker sandwich with turkey, bacon, lettuce, and tomato",
+      "price": 5.99,
+      "ordersCount": 16,
+      "weekDays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "vegetarian": false,
+      "spicy": false,
+      "mealType": "main",
+      "dishType": "sandwich"
+    },
+    {
+      "id": "18",
+      "vendorId": 2,
+      "title": "Veg Grilled Cheese Sandwich",
+      "description": "Indian Veg Grilled Cheese Sandwich that is made with cucumbers, tomatoes, onions, butter, cheese, green chutney, and chat masala on sandwich bread.",
+      "price": 6.99,
+      "ordersCount": 18,
+      "weekDays": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+      "vegetarian": true,
+      "spicy": false,
+      "mealType": "main",
+      "dishType": "sandwich"
+    },
+    {
+      "id": "19",
+      "vendorId": 1,
+      "title": "Vegan Mango Black Bean Green Rice Burrito Bowl",
+      "description": "Beautiful vegan green rice bowl made with homemade green rice, black beans, grilled chicken and a rainbow of fruits and veggies.",
+      "price": 8.99,
+      "ordersCount": 22,
+      "weekDays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "vegetarian": true,
+      "spicy": false,
+      "mealType": "main",
+      "dishType": "bowl"
+    },
+    {
+      "id": "20",
+      "vendorId": 1,
+      "title": "Salmon Rice Crunch Bowl",
+      "description": "This salmon rice bowl made out of marinated salmon, fresh veggies, spicy mayo and crunchy bits of fried onion! It is irresistible.",
+      "price": 9.99,
+      "ordersCount": 20,
+      "weekDays": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+      "vegetarian": false,
+      "spicy": false,
+      "mealType": "main",
+      "dishType": "bowl"
+    },
+    {
+      "id": "21",
+      "vendorId": 4,
+      "title": "Southern BBQ Burger with Nectarines",
+      "description": "You deserve to eat the best BBQ Beef Burger! This amped-up version features tender beef, tasty BBQ sauce, sweet nectarines and crumbly goat cheese.",
+      "price": 11.99,
+      "ordersCount": 26,
+      "weekDays": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+      "vegetarian": false,
+      "spicy": false,
+      "mealType": "main",
+      "dishType": "burger"
+    },
+    {
+      "id": "22",
+      "vendorId": 4,
+      "title": "Japanese-Style Chili Burger with Yuzu Mayo",
+      "description": "This burger is a two-hander, topped with Japanese-spiced chili, tomatoes, and shredded iceberg lettuce.",
+      "price": 12.99,
+      "ordersCount": 35,
+      "weekDays": ["Friday"],
+      "vegetarian": false,
+      "spicy": true,
+      "mealType": "main",
+      "dishType": "burger"
+    }
+  ],
+  "ratings": [
+    {
+      "mealId": 2,
+      "rating": {
+        "userId": 2,
+        "score": 3,
+        "comment": "Flavorful, but I did not like the consistency, it was not creamy."
+      },
+      "id": "fc40"
+    },
+    {
+      "mealId": 17,
+      "rating": {
+        "userId": 3,
+        "score": 5,
+        "comment": "Best sandwich I have ever had! No doubt."
+      },
+      "id": "ef45"
+    },
+    {
+      "mealId": 17,
+      "rating": {
+        "userId": 1,
+        "score": 3,
+        "comment": "Did not like turkey so much... On the other hand everything else was pretty fine."
+      },
+      "id": "2bf2"
+    },
+    {
+      "mealId": 18,
+      "rating": {
+        "userId": 4,
+        "score": 5,
+        "comment": "Tastes like heaven... Will order again!"
+      },
+      "id": "43a0"
+    },
+    {
+      "mealId": 18,
+      "rating": {
+        "userId": 5,
+        "score": 5,
+        "comment": "So glad I decided to try it out - I highly recommend it! That cheese... Omg no comments, You have to try it by yourself."
+      },
+      "id": "a28b"
+    },
+    {
+      "mealId": 20,
+      "rating": {
+        "userId": 3,
+        "score": 5,
+        "comment": "Really delicious. The taste of salmon is something out of this world."
+      },
+      "id": "f667"
+    },
+    {
+      "mealId": 21,
+      "rating": {
+        "userId": 3,
+        "score": 4,
+        "comment": "Not so sure about this BBQ and nectarines mix. Something seems missing here. Maybe just personal preferences tho."
+      },
+      "id": "5127"
+    },
+    {
+      "mealId": 22,
+      "rating": {
+        "userId": 4,
+        "score": 5,
+        "comment": "Something I have been waiting for so long. Can not get enought of it. Never disappoints."
+      },
+      "id": "dfaa"
+    },
+    {
+      "mealId": 22,
+      "rating": {
+        "userId": 5,
+        "score": 4,
+        "comment": "A bit too spicy for my taste. Nevertheless tastes really good!"
+      },
+      "id": "f7d8"
+    },
+    {
+      "mealId": 22,
+      "rating": {
+        "userId": 3,
+        "score": 3,
+        "comment": "Omg that spicy! Would prefer something more milder in terms of taste. Greens helps a bit, but still could not feel anything after my lunch..."
+      },
+      "id": "d304"
+    },
+    {
+      "mealId": 4,
+      "rating": {
+        "userId": 1,
+        "score": 4,
+        "comment": "Great vegetarian option with a nice kick."
+      },
+      "id": "fa0f"
+    },
+    {
+      "mealId": 5,
+      "rating": {
+        "userId": 1,
+        "score": 5,
+        "comment": "Spicy chicken curry is a must-try!"
+      },
+      "id": "3317"
+    },
+    {
+      "mealId": 14,
+      "rating": {
+        "userId": 1,
+        "score": 3,
+        "comment": "Salad was okay. The grilled chicken was flavorful, but I felt the salad lacked some taste overall."
+      },
+      "id": "74c1"
+    },
+    {
+      "mealId": 2,
+      "rating": {
+        "userId": 2,
+        "score": 4,
+        "comment": "This time the soup was good, pureed to the perfect creamy consistency."
+      },
+      "id": "eb62"
+    },
+    {
+      "mealId": 6,
+      "rating": {
+        "userId": 2,
+        "score": 4,
+        "comment": "Really enjoyed the beef soup! The meat was soft, and the variety of vegetables made it wholesome and delicious."
+      },
+      "id": "eeba"
+    },
+    {
+      "mealId": 8,
+      "rating": {
+        "userId": 1,
+        "score": 4,
+        "comment": "Comforting choice. Loved the variety of vegetables."
+      },
+      "id": "f8ce"
+    },
+    {
+      "mealId": 9,
+      "rating": {
+        "userId": 1,
+        "score": 5,
+        "comment": "Shrimp Pad Thai is absolutely delicious! Perfectly balanced flavors."
+      },
+      "id": "452d"
+    },
+    {
+      "mealId": 14,
+      "rating": {
+        "userId": 4,
+        "score": 4,
+        "comment": "The chicken was juicy, and the combination of other ingredients made for a satisfying meal. The dressing tied everything together nicely."
+      },
+      "id": "3418"
+    },
+    {
+      "mealId": 14,
+      "rating": {
+        "userId": 2,
+        "score": 4,
+        "comment": "This is a great choice for a healthy and delicious meal."
+      },
+      "id": "b990"
+    },
+    {
+      "mealId": 10,
+      "rating": {
+        "userId": 5,
+        "score": 4,
+        "comment": "Savory and satisfying. Generous portions of beef and broccoli."
+      },
+      "id": "2bc0"
+    },
+    {
+      "mealId": 12,
+      "rating": {
+        "userId": 2,
+        "score": 5,
+        "comment": "One of my favorite spicy soups."
+      },
+      "id": "fa74"
+    },
+    {
+      "mealId": 15,
+      "rating": {
+        "userId": 2,
+        "score": 2,
+        "comment": "The beef was too tough. Not spicy at all."
+      },
+      "id": "b010"
+    },
+    {
+      "mealId": 16,
+      "rating": {
+        "userId": 5,
+        "score": 5,
+        "comment": "Absolutely delicious! The steak was cooked to perfection, tender and juicy, while the roasted potatoes were seasoned just right."
+      },
+      "id": "498c"
+    },
+    {
+      "mealId": 16,
+      "rating": {
+        "userId": 1,
+        "score": 5,
+        "comment": "Really enjoyed the steak! It never disappoints me."
+      },
+      "id": "79fa"
+    },
+    {
+      "mealId": 10,
+      "rating": {
+        "userId": 5,
+        "score": 5,
+        "comment": "I highly recommend it to anyone looking for a delicious and satisfying meal. The sliced beef was tender and juicy, perfectly complemented by the crisp broccoli florets."
+      },
+      "id": "0db8"
+    },
+    {
+      "mealId": 2,
+      "rating": {
+        "userId": 4,
+        "score": 3,
+        "comment": "Not a big fan."
+      },
+      "id": "7bda"
+    },
+    {
+      "mealId": 12,
+      "rating": {
+        "userId": 1,
+        "score": 5,
+        "comment": "The Tom Yum soup was perfect, the spiciness perfectly balanced with the other flavors."
+      },
+      "id": "7f13"
+    },
+    {
+      "mealId": 13,
+      "rating": {
+        "userId": 1,
+        "score": 4,
+        "comment": "Tasty and satisfying option. I love the amount and taste of different kinds of meat on this pizza."
+      },
+      "id": "55a9"
+    },
+    {
+      "mealId": 11,
+      "rating": {
+        "userId": 1,
+        "score": 4,
+        "comment": "Delicious, fresh ingredients. Loved the crispy crust!"
+      },
+      "id": "bb64"
+    },
+    {
+      "mealId": 14,
+      "rating": {
+        "userId": 1,
+        "score": 4,
+        "comment": "Fresh and refreshing salads."
+      },
+      "id": "393c"
+    }
+  ],
+  "availableLunch": [
+    {
+      "userId": 1,
+      "mealIds": [2],
+      "id": "c6df"
+    },
+    {
+      "userId": 2,
+      "mealIds": [1, 19],
+      "id": "434f"
+    },
+    {
+      "userId": 3,
+      "mealIds": [10, 14],
+      "id": "39b7"
+    },
+    {
+      "userId": 4,
+      "mealIds": [12, 19],
+      "id": "8089"
+    },
+    {
+      "userId": 5,
+      "mealIds": [22],
+      "id": "316b"
+    },
+    {
+      "userId": 7,
+      "mealIds": [7, 12],
+      "id": "7ed8"
+    }
+  ]
+}

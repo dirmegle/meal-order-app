@@ -1,0 +1,63 @@
+@import '../../styles/breakpoints.css';
+
+.toastCard {
+  border-radius: var(--border-radius-m);
+  box-shadow: var(--box-shadow-m);
+  display: flex;
+  gap: var(--spacing-xxs);
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: var(--spacing-xxs);
+  pointer-events: all;
+  position: relative;
+  top: -120px;
+  width: 368px;
+  z-index: 3;
+
+  &.warning {
+    background-color: var(--color-red-500);
+  }
+
+  &.success {
+    background-color: var(--color-green-600);
+  }
+
+  &.info {
+    background-color: var(--color-purple-500);
+  }
+
+  &.active {
+    transform: translateY(144px);
+  }
+}
+
+.toastCloseIcon {
+  align-items: center;
+  display: flex;
+}
+
+.toastCard svg path {
+  fill: var(--color-white);
+}
+
+.toastText {
+  border-right: 1px solid white;
+  color: var(--color-white);
+  font-size: var(--label-font-size-s);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: var(--label-font-letter-spacing);
+  line-height: var(--label-line-height-m);
+  max-width: 235px;
+  padding-right: var(--spacing-xxs);
+}
+
+@media screen and (--breakpoint-sm-mobile) {
+  .toastCard {
+    width: 90%;
+  }
+
+  .toastText {
+    font-size: var(--label-font-size-xs);
+    line-height: var(--label-line-height-xs);
+  }
+}

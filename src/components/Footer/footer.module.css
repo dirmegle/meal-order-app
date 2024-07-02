@@ -1,0 +1,33 @@
+@import '../../styles/breakpoints.css';
+
+.footer {
+  color: var(--font-color-secondary);
+  display: flex;
+  font-size: var(--title-font-size-s);
+  font-weight: var(--font-weight-medium);
+  grid-column: 2;
+  grid-row: 2;
+  justify-content: space-between;
+  line-height: var(--title-line-height-s);
+  margin-top: auto;
+  padding: var(--spacing-l) var(--spacing-l) var(--spacing-s);
+  width: 100%;
+}
+
+@media screen and (--breakpoint-md-tablet) {
+  .footer {
+    grid-column: 2;
+  }
+}
+
+@media screen and (--breakpoint-sm-mobile) {
+  .footer {
+    align-items: center;
+    align-self: flex-end;
+    flex-direction: column;
+    font-size: var(--title-font-size-xs);
+    height: max-content;
+    line-height: var(--title-line-height-xs);
+    row-gap: var(--spacing-xxxxxs);
+  }
+}

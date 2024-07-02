@@ -1,0 +1,122 @@
+@import '../../styles/breakpoints.css';
+
+.container {
+  border-bottom: 1px solid var(--color-grey-200);
+  display: flex;
+  padding-bottom: var(--spacing-s);
+}
+
+.titleContainer {
+  align-items: center;
+  display: flex;
+  gap: var(--spacing-xxxxs);
+}
+
+.titleImageBg {
+  align-items: center;
+  background: var(--orange-gradient);
+  border-radius: var(--border-radius-m);
+  box-shadow: var(--box-shadow-s);
+  display: flex;
+  height: 222px;
+  justify-content: center;
+  width: 222px;
+}
+
+.titleAndIndicator {
+  align-items: center;
+  display: flex;
+  gap: var(--spacing-s);
+}
+
+.titleText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 var(--spacing-xxs);
+}
+
+.vendorName {
+  color: var(--color-grey-500);
+  font-size: var(--title-font-size-xs);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--title-line-height-xs);
+  text-transform: uppercase;
+}
+
+.dishName {
+  font-size: var(--title-font-size-s);
+  font-weight: var(--font-weight-medium);
+}
+
+.bodyContainer {
+  padding: var(--spacing-xs);
+}
+
+.mealDescription {
+  color: var(--color-grey-500);
+  font-size: var(--body-font-size-m);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--body-line-height-m);
+  margin: 11px 0 22px;
+  word-wrap: break-word;
+}
+
+.moreInfo {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: var(--spacing-xxxxs) 0 var(--spacing-xxs);
+}
+
+.moreInfoScore {
+  align-items: center;
+  display: flex;
+  font-size: var(--label-font-size-xs);
+  font-weight: var(--font-weight-semibold);
+}
+
+.stars {
+  display: flex;
+  font-size: var(--body-font-size-s);
+  gap: var(--spacing-xxxxs);
+}
+
+.ratingNumber {
+  font-size: var(--body-font-size-s);
+  font-weight: var(--font-weight-regular);
+}
+
+.pricingContainer {
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+}
+
+.priceTitle {
+  font-size: var(--body-font-size-s);
+}
+
+.priceValue {
+  font-size: var(--title-font-size-l);
+  font-weight: var(--font-weight-medium);
+}
+
+@media screen and (--breakpoint-sm-mobile) {
+  .container {
+    flex-direction: column;
+    padding-bottom: var(--spacing-s);
+  }
+
+  .titleImageBg {
+    width: 100%;
+  }
+
+  .titleText {
+    padding: var(--spacing-xxs);
+  }
+
+  .mealDescription {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,55 @@
+@import '../../styles/breakpoints.css';
+
+.container {
+  align-items: center;
+  color: var(--color-primary-600);
+  display: flex;
+  font-size: var(--title-font-size-s);
+  font-weight: var(--font-weight-medium);
+  gap: var(--spacing-xs);
+  line-height: var(--title-line-height-s);
+  max-width: max-content;
+}
+
+.sort {
+  display: flex;
+  gap: var(--spacing-xs);
+}
+
+.option {
+  border-radius: var(--border-radius-m);
+  display: flex;
+  list-style: none;
+  max-width: max-content;
+
+  &.selected {
+    outline: 1px solid var(--color-secondary-300);
+  }
+}
+
+.arrow {
+  height: 100%;
+  padding-top: var(--spacing-xxxxxs);
+  width: 100%;
+
+  &.hidden {
+    opacity: 0;
+  }
+
+  &.selected {
+    transform: rotate(180deg);
+  }
+}
+
+@media screen and (--breakpoint-sm-mobile) {
+  .container {
+    flex-direction: column;
+    gap: var(--spacing-xxxxs);
+  }
+
+  .sort {
+    align-items: center;
+    flex-direction: column;
+    gap: var(--spacing-xxxxxs);
+  }
+}

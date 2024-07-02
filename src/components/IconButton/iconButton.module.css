@@ -1,0 +1,158 @@
+.iconButton {
+  align-items: center;
+  border-radius: var(--border-radius-m);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  padding: var(--spacing-xxxxxs);
+  transition: 0.3s ease-in-out;
+
+  .iconContainer {
+    display: flex;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.4;
+  }
+}
+
+.accent {
+  background-color: var(--color-secondary-400);
+  border: none;
+  box-shadow: 0 0 0 1px var(--color-secondary-400) inset;
+  color: var(--font-color-white);
+
+  &:hover {
+    background-color: var(--color-secondary-600);
+    box-shadow: 0 0 0 1px var(--color-secondary-600) inset;
+  }
+
+  &:active {
+    background-color: var(--color-secondary-300);
+    box-shadow: 0 0 0 1px var(--color-secondary-300) inset;
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 2px var(--color-purple-500) inset;
+  }
+
+  &:disabled:hover,
+  :disabled:active,
+  :disabled:focus {
+    background-color: var(--color-secondary-400);
+    box-shadow: 0 0 0 1px var(--color-secondary-400) inset;
+  }
+
+  .iconContainer {
+    height: 50%;
+    width: 50%;
+  }
+}
+
+.outlined {
+  background-color: var(--color-white);
+  border: none;
+  box-shadow: 0 0 0 1px var(--color-secondary-300) inset;
+  color: var(--font-color-primary);
+
+  &:hover {
+    background-color: var(--color-secondary-100);
+  }
+
+  &:active {
+    background-color: var(--color-secondary-200);
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 2px var(--color-purple-500) inset;
+  }
+
+  &:disabled:hover,
+  :disabled:active,
+  :disabled:focus {
+    background-color: var(--color-white);
+    box-shadow: 0 0 0 1px var(--color-secondary-300) inset;
+  }
+
+  .iconContainer {
+    height: 90%;
+    width: 90%;
+  }
+}
+
+.tertiary {
+  background-color: var(--color-white);
+  border: none;
+  box-shadow: 0 0 0 1px var(--color-white) inset;
+  color: var(--font-color-primary);
+
+  &:hover {
+    background-color: var(--color-secondary-100);
+    box-shadow: 0 0 0 1px var(--color-secondary-100) inset;
+  }
+
+  &:active {
+    background-color: var(--color-secondary-200);
+    box-shadow: 0 0 0 1px var(--color-secondary-200) inset;
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 2px var(--color-purple-500) inset;
+  }
+
+  &:disabled:hover,
+  :disabled:active,
+  :disabled:focus {
+    background-color: var(--color-white);
+    box-shadow: 0 0 0 1px var(--color-white) inset;
+  }
+
+  .iconContainer {
+    height: 60%;
+    width: 60%;
+  }
+}
+
+.medium {
+  height: 2rem;
+  width: 2rem;
+}
+
+.small {
+  height: 1.625rem;
+  width: 1.625rem;
+}
+
+.transparent {
+  background-color: transparent;
+  border: none;
+  box-shadow: 0 0 0 1px transparent inset;
+  color: var(--font-color-primary);
+
+  &:hover {
+    background-color: rgba(var(--color-black-rgb) / 20%);
+    box-shadow: 0 0 0 1px var(--color-white) inset;
+  }
+
+  &:active {
+    background-color: rgba(var(--color-black-rgb) / 50%);
+    box-shadow: 0 0 0 1px var(--color-white) inset;
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 2px var(--color-purple-500) inset;
+  }
+
+  &:disabled:hover,
+  :disabled:active,
+  :disabled:focus {
+    background-color: transparent;
+    box-shadow: 0 0 0 1px transparent inset;
+  }
+
+  .iconContainer {
+    height: 60%;
+    width: 60%;
+  }
+}

@@ -1,0 +1,7 @@
+@custom-media --breakpoint-sm-mobile (max-width: 640px);
+@custom-media --breakpoint-md-tablet (max-width: 768px);
+@custom-media --breakpoint-lg-tablet (max-width: 855px);
+@custom-media --breakpoint-sm-desktop (max-width: 1310px);
+@custom-media --breakpoint-xxxl (min-width: 2560px);
+@custom-media --breakpoint-sm-height (max-height: 580px);
+@custom-media --breakpoint-md-height (max-height: 875px);

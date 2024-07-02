@@ -1,0 +1,28 @@
+.cardContent {
+  align-items: center;
+  border-radius: var(--border-radius-m);
+  box-shadow: var(--box-shadow-m);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-m);
+  padding: var(--spacing-xxs);
+  width: 398px;
+}
+
+.closeButton {
+  align-self: flex-end;
+}
+
+.orderBox {
+  border: 1px solid var(--color-grey-200);
+  border-radius: var(--border-radius-m);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-s);
+  padding: var(--spacing-xxs);
+  width: 100%;
+}
+
+.button {
+  padding: var(--spacing-xxs);
+}

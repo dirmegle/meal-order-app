@@ -1,0 +1,108 @@
+@import '../../styles/breakpoints.css';
+
+.container {
+  display: flex;
+  gap: var(--spacing-xxxxxs);
+  width: 100%;
+
+  &.small {
+    font-size: var(--title-font-size-xs);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--title-line-height-xs);
+  }
+
+  &.medium {
+    font-size: var(--body-font-size-s);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--body-line-height-s);
+  }
+
+  &.large {
+    align-items: center;
+    font-size: var(--title-font-size-s);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--title-line-height-s);
+  }
+}
+
+.image {
+  &.medium {
+    height: 70px;
+    width: 70px;
+  }
+
+  &.small {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+.mealInfo,
+.priceAndButton {
+  display: flex;
+  flex-direction: column;
+}
+
+.mealInfo {
+  gap: var(--spacing-xxxxxs);
+  width: 100%;
+}
+
+.vendorName {
+  color: var(--font-color-secondary);
+  font-weight: var(--font-weight-medium);
+  text-transform: uppercase;
+
+  &.medium {
+    font-size: var(--title-font-size-xs);
+    line-height: var(--title-line-height-xs);
+  }
+
+  &.large {
+    font-size: var(--title-font-size-s);
+    line-height: var(--title-line-height-s);
+  }
+}
+
+.titleAndPrice {
+  display: flex;
+  gap: var(--spacing-xxxs);
+  justify-content: space-between;
+}
+
+.priceAndButton {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+
+  &.small {
+    font-size: var(--title-font-size-xs);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--title-line-height-xs);
+  }
+
+  &.medium {
+    font-size: var(--body-font-size-m);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--body-line-height-m);
+  }
+}
+
+@media screen and (--breakpoint-sm-desktop) {
+  .container {
+    gap: var(--spacing-xxs);
+  }
+
+  .priceAndButton {
+    align-items: center;
+    flex-direction: row;
+    gap: var(--spacing-xxxxxs);
+  }
+}
+
+@media screen and (--breakpoint-sm-mobile) {
+  .container {
+    align-items: center;
+    gap: var(--spacing-xxxxs);
+  }
+}

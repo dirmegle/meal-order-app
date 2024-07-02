@@ -1,0 +1,36 @@
+@import '../../styles/breakpoints.css';
+
+.title {
+  font-size: var(--title-font-size-s);
+  font-weight: var(--font-weight-medium);
+  padding-bottom: var(--spacing-xxs);
+  text-transform: uppercase;
+}
+
+.userDetails {
+  align-items: center;
+  display: flex;
+  font-size: var(--body-font-size-s);
+  font-weight: var(--font-weight-medium);
+  padding-bottom: var(--spacing-xxxxs);
+  text-transform: uppercase;
+}
+
+.userImg {
+  border-radius: 50%;
+  height: 22px;
+  margin-right: var(--spacing-xs);
+  object-fit: cover;
+  width: 22px;
+}
+
+.userName {
+  color: var(--color-primary-600);
+  font-size: var(--title-font-size-xs);
+}
+
+.commentContainer {
+  color: var(--color-grey-500);
+  font-size: var(--body-font-size-s);
+  padding-left: var(--spacing-l);
+}

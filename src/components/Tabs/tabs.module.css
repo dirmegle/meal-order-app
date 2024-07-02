@@ -1,0 +1,58 @@
+@import '../../styles/breakpoints.css';
+
+.container {
+  border-bottom: 2px solid var(--color-grey-300);
+  display: flex;
+  height: 39px;
+  list-style: none;
+  margin-top: var(--spacing-s);
+}
+
+.tab {
+  background-color: inherit;
+  border: none;
+  color: var(--color-grey-500);
+  cursor: pointer;
+  font-size: var(--label-font-size-s);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--label-line-height-s);
+  padding: var(--spacing-xxxxs) var(--spacing-xxs);
+
+  &:hover {
+    background-color: rgba(var(--color-primary-rgb-600) / 5%);
+  }
+
+  &.uppercase {
+    text-transform: uppercase;
+  }
+
+  &.selected {
+    border-bottom: 2px solid var(--color-secondary-400);
+    color: var(--color-primary-600);
+  }
+
+  &:disabled {
+    border: none;
+    opacity: 0.4;
+  }
+}
+
+@media screen and (--breakpoint-md-tablet) {
+  .tab {
+    width: 100%;
+  }
+
+  .tabBox {
+    width: 50%;
+  }
+}
+
+@media screen and (--breakpoint-sm-mobile) {
+  .container {
+    height: 25.5px;
+  }
+
+  .tab {
+    padding: 0;
+  }
+}

@@ -1,0 +1,139 @@
+@import '../../styles/breakpoints.css';
+
+.container {
+  background-color: var(--color-white);
+  border: 0.5px solid var(--color-grey-100);
+  border-radius: var(--border-radius-m) 0 0 var(--border-radius-m);
+  box-shadow: var(--box-shadow-s);
+  min-width: 283px;
+  padding: var(--spacing-xxs);
+}
+
+.userInfo {
+  align-items: center;
+  display: flex;
+  gap: var(--spacing-xxs);
+}
+
+.imgWrapper {
+  height: 32px;
+  position: relative;
+}
+
+.userImage {
+  border-radius: 50%;
+  height: 32px;
+  object-fit: cover;
+  width: 32px;
+}
+
+.accSettingsButton {
+  background-color: transparent;
+  background-image: url('src/assets/icons/arrowDownRounded.svg');
+  border: none;
+  border-radius: 50%;
+  bottom: 0;
+  cursor: pointer;
+  height: 20px;
+  position: absolute;
+  right: 0;
+  transform: translate(35%, 35%);
+  width: 20px;
+
+  &:hover {
+    box-shadow: 0 0 0 1px var(--color-secondary-600) inset;
+  }
+
+  &:active {
+    box-shadow: 0 0 0 1px var(--color-secondary-300) inset;
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 2px var(--color-purple-500) inset;
+  }
+}
+
+.details {
+  align-items: center;
+  display: flex;
+  margin-top: var(--spacing-xxs);
+}
+
+.balance {
+  border-right: 2px solid var(--color-grey-100);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: var(--spacing-xxs);
+  padding-right: var(--spacing-xxs);
+  width: 154px;
+}
+
+.cartIconWrapper {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: var(--spacing-xxxs);
+  position: relative;
+}
+
+.cartIconWrapper::after {
+  background-color: var(--color-red-500);
+  border: 1.5px solid var(--color-white);
+  border-radius: 50%;
+  bottom: 0;
+  color: var(--color-white);
+  content: attr(data-cart-count);
+  font-size: var(--label-font-size-xs);
+  height: 18px;
+  line-height: var(--label-line-height-xs);
+  position: absolute;
+  right: 0;
+  text-align: center;
+  transform: translate(35%, 35%);
+  width: 18px;
+}
+
+.cartIcon {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (--breakpoint-sm-desktop) {
+  .container {
+    border-radius: var(--border-radius-m);
+  }
+
+  .userInfo {
+    justify-content: center;
+  }
+
+  .details {
+    justify-content: center;
+  }
+
+  .balance {
+    justify-content: space-around;
+    margin-right: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (--breakpoint-sm-mobile) {
+  .container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    min-width: auto;
+    padding: var(--spacing-xxs) 0;
+  }
+
+  .userName {
+    display: none;
+  }
+
+  .details {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xxxxs);
+  width: auto;
+}
+
+.headline {
+  color: var(--color-primary-600);
+  font-size: var(--headline-font-size-l);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--headline-line-height-l);
+}
+
+.descriptionHeading {
+  color: var(--color-primary-600);
+  font-size: var(--title-font-size-l);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--title-line-height-l);
+}
+
+.descriptionParagraph {
+  color: var(--color-grey-500);
+  font-size: var(--body-font-size-l);
+  font-weight: var(--body-weight-medium);
+  line-height: var(--body-line-height-l);
+}

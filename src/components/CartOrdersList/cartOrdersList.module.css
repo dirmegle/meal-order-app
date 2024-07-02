@@ -1,0 +1,54 @@
+@import '../../styles/breakpoints.css';
+
+.emptyCart {
+  align-items: center;
+  color: var(--font-color-secondary);
+  display: flex;
+  flex-direction: column;
+  font-size: var(--body-font-size-m);
+  font-weight: var(--font-weight-regular);
+  justify-content: center;
+  line-height: var(--body-line-height-m);
+  padding: var(--spacing-l) 0;
+}
+
+.basketImg {
+  width: 124px;
+}
+
+.ordersBox {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-s);
+}
+
+.weekDay {
+  align-items: center;
+  color: var(--font-color-secondary);
+  display: flex;
+  font-size: var(--title-font-size-s);
+  font-weight: var(--font-weight-medium);
+  gap: var(--spacing-xxxs);
+  line-height: var(--title-line-height-s);
+  width: 100%;
+}
+
+.line {
+  background-color: var(--color-grey-200);
+  height: 1px;
+  width: 100%;
+}
+
+@media screen and (--breakpoint-sm-desktop) {
+  .ordersBox {
+    gap: 0;
+  }
+
+  .weekDay {
+    padding-bottom: var(--spacing-s);
+  }
+
+  .order {
+    padding-bottom: var(--spacing-s);
+  }
+}

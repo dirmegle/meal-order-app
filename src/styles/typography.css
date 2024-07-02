@@ -1,0 +1,51 @@
+/* Variables naming: --component-element-modifier. If modifiers are numbers, they indicate the degree or intensity - 100 is the lightest and 900 is the darkest.
+ Examples: --table-head-color, --navigation-link-icon-color */
+
+@import 'https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap';
+
+:root {
+  --font-family: 'Poppins', sans-serif;
+  --font-weight-bold: 700;
+  --font-weight-semibold: 600;
+  --font-weight-medium: 500;
+  --font-weight-regular: 400;
+  --font-color-primary: var(--color-primary-800);
+  --font-color-secondary: var(--color-grey-500);
+  --font-color-tertiary: var(--color-primary-600);
+  --font-color-orange-accent: var(--color-secondary-600);
+  --font-color-purple-accent: var(--color-purple-500);
+  --font-color-white: var(--color-white);
+  --label-font-letter-spacing: 0.015rem;
+  --label-font-size-l: 1.25rem;
+  --label-font-size-m: 1rem;
+  --label-font-size-s: 0.875rem;
+  --label-font-size-xs: 0.75rem;
+  --label-font-size-xxs: 0.625rem;
+  --label-line-height-l: 1.875rem;
+  --label-line-height-m: 1.5rem;
+  --label-line-height-s: 1.3125rem;
+  --label-line-height-xs: 1.125rem;
+  --label-line-height-xxs: 0.9375rem;
+  --headline-font-size-l: 2rem;
+  --headline-font-size-m: 1.5rem;
+  --headline-font-size-s: 1.125rem;
+  --headline-line-height-l: 2.5rem;
+  --headline-line-height-m: 1.875rem;
+  --headline-line-height-s: 1.6875rem;
+  --title-font-size-xl: 1.5rem;
+  --title-font-size-l: 1.125rem;
+  --title-font-size-m: 1rem;
+  --title-font-size-s: 0.875rem;
+  --title-font-size-xs: 0.625rem;
+  --title-line-height-xl: 1.875rem;
+  --title-line-height-l: 1.6875rem;
+  --title-line-height-m: 1.5rem;
+  --title-line-height-s: 1.3125rem;
+  --title-line-height-xs: 0.9375rem;
+  --body-font-size-l: 1rem;
+  --body-font-size-m: 0.875rem;
+  --body-font-size-s: 0.75rem;
+  --body-line-height-l: 1.5rem;
+  --body-line-height-m: 1.3125rem;
+  --body-line-height-s: 1.125rem;
+}

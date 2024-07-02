@@ -1,0 +1,25 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-s);
+  margin-bottom: var(--spacing-xxxs);
+}
+
+.linkButtonContainer {
+  align-self: flex-end;
+  margin-bottom: var(--spacing-xxxxl);
+}
+
+.inputWrapper {
+  margin-bottom: var(--spacing-xl);
+}
+
+.communityRulesContainer {
+  margin-bottom: var(--spacing-xxxxl);
+  margin-top: var(--spacing-xxs);
+}

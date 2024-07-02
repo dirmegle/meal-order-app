@@ -1,0 +1,83 @@
+@import '../../styles/breakpoints.css';
+
+.container {
+  color: var(--color-primary-600);
+  display: flex;
+  flex-direction: column;
+  font-size: var(--label-font-size-s);
+  font-weight: var(--font-weight-semibold);
+  gap: var(--spacing-xxxxxs);
+  line-height: var(--label-line-height-s);
+  position: relative;
+  width: 100%;
+}
+
+.selectField {
+  background: var(--color-white) url('../../assets/icons/inputs/arrowDown.svg') right
+    var(--spacing-xxxs) center no-repeat;
+  border: 1px solid var(--color-grey-300);
+  border-radius: var(--border-radius-m);
+  color: var(--color-grey-500);
+  cursor: pointer;
+  font-size: var(--body-font-size-m);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--body-line-height-m);
+  padding: var(--spacing-xxxxs) var(--spacing-xxs);
+
+  &.optionsOpen {
+    background: var(--color-white) url('../../assets/icons/inputs/arrowUp.svg') right
+      var(--spacing-xxxs) center no-repeat;
+  }
+
+  &:focus {
+    border-color: var(--color-white);
+    outline: 2px solid var(--color-purple-500);
+  }
+}
+
+.dropDown {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-grey-200);
+  border-radius: var(--border-radius-m);
+  box-shadow: var(--box-shadow-m);
+  list-style: none;
+  margin-top: 4.8rem;
+  max-height: 123px;
+  overflow-y: auto;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+
+  .options {
+    background-color: var(--color-white);
+    border: none;
+    color: var(--color-primary-600);
+    cursor: pointer;
+    font-size: var(--title-font-size-s);
+    font-weight: var(--font-weight-semibold);
+    line-height: var(--title-font-size-s);
+    padding: var(--spacing-xxxs) var(--spacing-xxs);
+    text-align: left;
+    width: 100%;
+
+    &.selected {
+      background-color: rgb(var(--color-purple-rgb) / 4%);
+      color: var(--color-secondary-600);
+    }
+
+    &:hover {
+      background-color: var(--color-purple-200);
+    }
+
+    &:focus {
+      background-color: rgb(var(--color-purple-rgb) / 4%);
+      color: var(--color-secondary-600);
+    }
+  }
+}
+
+@media screen and (--breakpoint-sm-mobile) {
+  .options {
+    display: block;
+  }
+}

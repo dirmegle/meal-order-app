@@ -1,0 +1,35 @@
+.autocomplete {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-grey-200);
+  border-radius: var(--border-radius-m);
+  box-shadow: var(--box-shadow-m);
+  list-style: none;
+  margin-top: 4.8rem;
+  max-height: 123px;
+  overflow-y: auto;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+
+  .options {
+    background-color: var(--color-white);
+    border: none;
+    color: var(--color-grey-500);
+    cursor: pointer;
+    font-size: var(--title-font-size-s);
+    font-weight: var(--font-weight-semibold);
+    line-height: var(--title-font-size-s);
+    padding: var(--spacing-xxxs) var(--spacing-xxs);
+    text-align: left;
+    width: 100%;
+
+    &:hover {
+      background-color: var(--color-purple-200);
+    }
+
+    &:focus {
+      background-color: rgb(var(--color-purple-rgb) / 4%);
+      color: var(--color-secondary-600);
+    }
+  }
+}

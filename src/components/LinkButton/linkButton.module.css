@@ -1,0 +1,54 @@
+.button {
+  --link-button-font-size: inherit;
+  --link-button-font-family: inherit;
+  --link-button-font-weight: inherit;
+  --link-button-letter-spacing: inherit;
+  --link-button-line-height: inherit;
+
+  background-color: transparent;
+  border: none;
+  color: var(--color-secondary-800);
+  cursor: pointer;
+  font-family: var(--link-button-font-family);
+  font-size: var(--link-button-font-size);
+  font-weight: var(--link-button-font-weight);
+  letter-spacing: var(--link-button-letter-spacing);
+  line-height: var(--link-button-line-height);
+  text-decoration: underline;
+
+  .iconContainer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    .iconWrapper {
+      display: flex;
+    }
+  }
+
+  &:disabled {
+    cursor: auto;
+    opacity: 0.4;
+    text-decoration: none;
+  }
+}
+
+.standalone {
+  align-items: center;
+  display: flex;
+  font-size: var(--label-font-size-m);
+  font-weight: var(--font-weight-semibold);
+  gap: var(--spacing-xxxxs);
+  letter-spacing: var(--label-font-letter-spacing);
+  line-height: var(--label-line-height-m);
+  text-decoration: none;
+  width: fit-content;
+}
+
+.standalone:hover:not(:disabled) {
+  border-bottom: 2px solid var(--color-secondary-300);
+}
+
+.button .iconWrapper svg path {
+  fill: var(--color-secondary-600);
+}

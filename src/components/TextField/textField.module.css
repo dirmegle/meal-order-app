@@ -1,0 +1,54 @@
+.textfield {
+  border: none;
+  border-radius: var(--border-radius-m);
+  box-shadow: 0 0 0 1px var(--color-grey-300) inset;
+  color: var(--color-grey-500);
+  font-size: var(--body-font-size-m);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--body-line-height-m);
+  padding: var(--spacing-xxxxs) var(--spacing-xxxs);
+  width: 100%;
+
+  &:focus-visible {
+    outline: none;
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 2px var(--color-purple-500) inset;
+  }
+
+  &:disabled {
+    cursor: default;
+    opacity: 0.4;
+  }
+}
+
+.textfield.textFieldInError {
+  box-shadow: 0 0 0 1px var(--color-red-200) inset;
+  color: var(--color-red-600);
+
+  &:focus {
+    box-shadow: 0 0 0 2px var(--color-purple-500) inset;
+  }
+}
+
+.label {
+  color: var(--font-color-tertiary);
+  font-size: var(--label-font-size-s);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--label-line-height-s);
+}
+
+.label.labelDisabled {
+  opacity: 0.4;
+}
+
+.label.labelInError {
+  color: var(--color-grey-800);
+}
+
+.errorMessage {
+  color: var(--color-red-600);
+  font-size: var(--body-font-size-m);
+  line-height: var(--body-line-height-m);
+}
